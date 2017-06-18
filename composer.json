@@ -1,0 +1,23 @@
+{
+  "name" : "apolbox/sekolah",
+  "type" : "library",
+  "keywords" : ["library","schooll"],
+  "license" : "Apache-2",
+  
+  "require" : {
+      "php" : ">=5.6.3"
+  },
+
+  "authors" : [
+    {
+      "name" : "Ayus Irfang F",
+      "email" : "ayus.sahabat@gmail.com",
+      "homepage" : "http://apolbox.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Sekolah\\" :"src/Sekolah/"
+    }
+  }
+}
