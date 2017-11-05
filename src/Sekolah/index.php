@@ -17,3 +17,5 @@ class Utama
 		setContentview('welcome');
 	}
 }
+
+return new Utama();
